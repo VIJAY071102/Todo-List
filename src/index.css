@@ -1,0 +1,69 @@
+*{
+  background-color: black;
+}
+h1{
+  color: white;
+}
+.input{
+  margin-bottom: 10px;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  flex: 1;
+  display: flex;
+}
+.input-box{
+  color: white;
+}
+.to-do-list{
+  margin-top: 100px;
+  text-align: center;
+  
+}
+
+.todo-body{
+  text-align: center;
+  
+}
+button{
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+.del-btn{
+  background-color: #da1313af;
+  margin-right: 10px;
+}
+.up-btn{
+  background-color: rgba(11, 15, 239, 0.724);
+  margin-right: 10px;
+}
+
+.down-btn{
+  background-color: rgba(101, 5, 101, 0.845);
+  margin-right: 10px;
+}
+
+.add-btn{
+  background-color: green;
+}
+
+.li{
+  background-color: hsla(170, 80%, 80%, 0.808);
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 3px solid rgb(230, 221, 221);
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  background-color: transparent;
+  color: white;
+  font-weight: 15px;
+  flex: 1;
+}
+
